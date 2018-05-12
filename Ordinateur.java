@@ -37,6 +37,7 @@ public class Ordinateur extends Joueur{
 		prochain_coup = racine.filsMax();
 		plateau.setPlateau(prochain_coup.plateau);
 		
+		System.out.println("Coup joué : ");
 		plateau.Afficher();
 	}
 	
